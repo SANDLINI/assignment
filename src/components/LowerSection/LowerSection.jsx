@@ -9,13 +9,17 @@ const LowerSection = () => {
       <div className={styles.content_Box}>
         <div className={styles.content}>
           <h1>Content:</h1>
-          <p>12 lessons 2hr 3min</p>
+          <p>
+            12 lessons <span>&#x2022;</span> 2hr 3min <span>&#x2022;</span>
+          </p>
           <div className={styles.time_table}>
             <div className={styles.inner_table}>
               <div className={styles.sNo}>1</div>
               <p className={styles.agenda}>Introductory Session (Live class)</p>
             </div>
-            <p className={styles.time}>2hr 3min</p>
+            <p className={styles.time}>
+              2hr 3min <span>&#x2022;</span>
+            </p>
           </div>
           <hr className={styles.line} />
           <div className={styles.time_table}>
@@ -23,7 +27,9 @@ const LowerSection = () => {
               <div className={styles.sNo}>2</div>
               <p className={styles.agenda}>Getting into the Fundamentals </p>
             </div>
-            <p className={styles.time}>2hr 3min</p>
+            <p className={styles.time}>
+              2hr 3min <span>&#x2022;</span>
+            </p>
           </div>
           <hr className={styles.line} />
 
@@ -32,7 +38,9 @@ const LowerSection = () => {
               <div className={styles.sNo}>3</div>
               <p className={styles.agenda}>Know your niche</p>
             </div>
-            <p className={styles.time}>2hr 3min</p>
+            <p className={styles.time}>
+              2hr 3min <span>&#x2022;</span>
+            </p>
           </div>
           <hr className={styles.line} />
 
@@ -43,7 +51,9 @@ const LowerSection = () => {
                 The Crux of Search Engine Optimization (SEO) What is SEO?
               </p>
             </div>
-            <p className={styles.time}>2hr 3min</p>
+            <p className={styles.time}>
+              2hr 3min <span>&#x2022;</span>
+            </p>
           </div>
           <hr className={styles.line} />
 
@@ -52,7 +62,9 @@ const LowerSection = () => {
               <div className={styles.sNo}>5</div>
               <p className={styles.agenda}>The Key to Keywords</p>
             </div>
-            <p className={styles.time}>2hr 3min</p>
+            <p className={styles.time}>
+              2hr 3min <span>&#x2022;</span>
+            </p>
           </div>
           <hr className={styles.line} />
           <div className={styles.time_table}>
@@ -62,7 +74,9 @@ const LowerSection = () => {
                 Content Marketing - Ensuring the Reach{" "}
               </p>
             </div>
-            <p className={styles.time}>2hr 3min</p>
+            <p className={styles.time}>
+              2hr 3min <span>&#x2022;</span>
+            </p>
           </div>
           <button className={styles.btn}>View All</button>
         </div>
@@ -74,7 +88,7 @@ const LowerSection = () => {
             <img src={image1} alt="Image" className={styles.image} />
           </span>
           <h3 className={styles.feature_heading1}>Career Opportunities:</h3>
-          <ul>
+          <ul className={styles.ul}>
             <li>Life time access</li>
             <li>Life time access</li>
             <li>Life time access</li>

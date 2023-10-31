@@ -15,6 +15,8 @@
   margin: auto;
 }
 
+
+
 .content {
   max-width: 546px;
   margin: auto;
@@ -223,7 +225,7 @@ li {
 @media screen and (max-width: 870px) and (min-width: 280px) {
   .lowerSection {
     width: 100%;
-    margin: auto;
+    margin: 0 auto 40px 0;
   }
 
   .content_Box {
@@ -237,7 +239,7 @@ li {
   }
 
   .agenda {
-    font-size: 16px;
+    font-size: 14px;
     width: 80%;
   }
 
@@ -245,6 +247,10 @@ li {
     width: 20px;
     height: 20px;
     padding: 4px;
+  }
+
+  .time {
+    font-size: 12px;
   }
 
   .feature_Box {
@@ -285,7 +291,8 @@ li {
   .buyNowBtn {
     width: 270px;
     height: 56px;
-    overflow: hidden;
+
+
   }
 }
 
