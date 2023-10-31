@@ -15,8 +15,6 @@
   margin: auto;
 }
 
-
-
 .content {
   max-width: 546px;
   margin: auto;
@@ -46,11 +44,17 @@
   margin-bottom: 5px;
   color: white;
   border: 1px solid white;
+  font-weight: bolder;
+}
+
+.time {
+  font-size: 12px;
 }
 
 .agenda {
   font-size: 20px;
   max-width: 350px;
+  font-weight: bolder;
 }
 
 .line {
