@@ -4,7 +4,7 @@
   gap: 30px;
   justify-content: space-between;
   align-items: start;
-  margin: 73px 10%;
+  margin: 70px 10%;
 }
 
 .content_Box {
@@ -71,13 +71,7 @@
 
 .feature_Box {
   max-width: 520px;
-  margin: auto;
-}
-
-@media only screen and (min-width: 750px) and (max-width: 1480px) {
-  .feature_Box {
-    margin-top: 70px;
-  }
+  margin: -10px auto;
 }
 
 ul {
@@ -169,11 +163,61 @@ li {
   font-size: 14px;
 }
 
+@media only screen and (max-width: 1500px) and (min-width: 1050px) {
+  .lowerSection {
+    gap: 10px;
+    margin-bottom: 70px;
+  }
+
+  .content_Box {
+    width: 50%;
+  }
+
+  .content {
+    width: 80%;
+    margin-top: -20px;
+  }
+
+  .time_table {
+    width: 100%;
+  }
+
+  .sNo {
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin-right: 4xp;
+    border-radius: 50%;
+  }
+
+  .inner_table {
+    width: 150%;
+    font-size: 18px;
+  }
+
+  .agenda {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .feature_Box {
+    margin-top: -10px;
+    width: 40%;
+  }
+
+  .price_container {
+    justify-content: space-between;
+  }
+
+  .buyNowBtn {
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 870px) and (min-width: 280px) {
   .lowerSection {
     width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: auto;
   }
 
   .content_Box {
@@ -196,9 +240,7 @@ li {
     height: 20px;
     padding: 4px;
   }
-}
 
-@media screen and (max-width: 600px) and (min-width: 280px) {
   .feature_Box {
     width: 80%;
   }
@@ -231,7 +273,27 @@ li {
   }
 
   .buyNowBtn {
-    width: 150px;
+    width: 270px;
+    height: 56px;
     overflow: hidden;
+  }
+}
+
+@media screen and (min-width : 550px) and (max-width: 869px) {
+  .buyNowBtn {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 549px) and (min-width: 400px) {
+  .buyNowBtn {
+    width: 170px;
+  }
+}
+
+
+@media screen and (max-width: 399px) {
+  .buyNowBtn {
+    width: 130px;
   }
 }
