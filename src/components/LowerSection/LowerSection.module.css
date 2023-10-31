@@ -152,8 +152,7 @@ li {
 
 .price {
   font-size: 28px;
-    font-family: "Gilroy-ExtraBold";
-
+  font-family: "Gilroy-ExtraBold";
 }
 
 .price_box {
@@ -165,8 +164,7 @@ li {
 
 .cross {
   text-decoration: line-through;
-    font-family: "Gilroy-Light";
-
+  font-family: "Gilroy-Light";
 }
 
 .buyNowBtn {
@@ -177,8 +175,7 @@ li {
   border: none;
   border-radius: 8px;
   color: white;
-  font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 1500px) and (min-width: 1050px) {
