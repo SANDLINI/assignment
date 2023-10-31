@@ -8,7 +8,7 @@ const LowerSection = () => {
     <section className={styles.lowerSection}>
       <div className={styles.content_Box}>
         <div className={styles.content}>
-          <h1>Content:</h1>
+          <h1 className={styles.heading}>Content:</h1>
           <p>
             12 lessons <span>&#x2022;</span> 2hr 3min <span>&#x2022;</span>
           </p>
