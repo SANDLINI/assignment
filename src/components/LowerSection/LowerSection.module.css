@@ -18,7 +18,7 @@
 .content {
   max-width: 546px;
   margin: auto;
-  padding: 10px
+  padding: 10px;
 }
 
 .time_table {
@@ -45,6 +45,7 @@
   color: white;
   border: 1px solid white;
   font-weight: bolder;
+  font-family: "Gilroy-ExtraBold";
 }
 
 .time {
@@ -151,6 +152,8 @@ li {
 
 .price {
   font-size: 28px;
+    font-family: "Gilroy-ExtraBold";
+
 }
 
 .price_box {
@@ -162,6 +165,8 @@ li {
 
 .cross {
   text-decoration: line-through;
+    font-family: "Gilroy-Light";
+
 }
 
 .buyNowBtn {
@@ -235,7 +240,7 @@ li {
 
   .content_Box {
     max-width: 100%;
-    padding: 0 15px;
+    /* padding: 0 15px; */
     margin: auto;
   }
 
@@ -292,8 +297,6 @@ li {
   .buyNowBtn {
     width: 270px;
     height: 56px;
-
-
   }
 }
 

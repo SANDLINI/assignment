@@ -1,4 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@100;300;400&display=swap');
+@font-face {
+  font-family: "Gilroy-ExtraBold";
+  src: url("../src/assets/font/Gilroy-ExtraBold.otf");
+}
+font-family {
+  font-family: "Gilroy-Light";
+  src: url("../src/assets/font/Gilroy-ExtraBold.otf");
+}
+
 body {
   background-color: #16202a;
   margin: 0;
@@ -11,15 +19,16 @@ h3,
 p,
 ul,
 li {
-  color: white;
+  color: white; font-family: 'Gilroy-Light', sans-serif;
 }
 
 h1 {
   font-size: 28px;
+   font-family: 'Gilroy-Bold', sans-serif;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 28px; font-family: 'Gilroy-Bold', sans-serif;
 }
 h4 {
   font-size: 20px;
