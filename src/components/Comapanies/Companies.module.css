@@ -1,0 +1,39 @@
+.companies_section {
+  margin: auto;
+  margin-top: 104px;
+  max-width: 837px;
+  height: 208px;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.main_heading {
+  line-height: 55px;
+  margin-top: 0px;
+  padding-top: 0;
+}
+
+.imageBox {
+  display: flex;
+  justify-content: space-around;
+  height: 73px;
+  width: auto;
+}
+
+@media screen and (max-width: 870px) and (min-width: 280px) {
+  .companies_section {
+    width: 100%;
+    border: none;
+  }
+
+  .main_heading {
+    line-height: 40px;
+    font-size: 20px;
+  }
+
+  .imageBox {
+    height: 50px;
+  }
+}
+
+
