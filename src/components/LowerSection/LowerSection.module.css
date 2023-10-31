@@ -107,6 +107,12 @@ li {
   left: -35px;
 }
 
+.image2 {
+  position: relative;
+  top: 10px;
+  left: -28px;
+}
+
 .feature_heading1 {
   margin-top: -30px;
   margin-bottom: -10px;
@@ -258,6 +264,10 @@ li {
     left: -30px;
   }
 
+  .image2 {
+    left: -22px;
+  }
+
   ul {
     padding-bottom: 10px;
     padding-left: 35px;
@@ -279,7 +289,7 @@ li {
   }
 }
 
-@media screen and (min-width : 550px) and (max-width: 869px) {
+@media screen and (min-width: 550px) and (max-width: 869px) {
   .buyNowBtn {
     width: 250px;
   }
@@ -290,7 +300,6 @@ li {
     width: 170px;
   }
 }
-
 
 @media screen and (max-width: 399px) {
   .buyNowBtn {

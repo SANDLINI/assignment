@@ -70,7 +70,7 @@ const LowerSection = () => {
 
       <div className={styles.feature_Box}>
         <div className={styles.box_1}>
-          <span className={styles.image1}>
+          <span className={styles.image2}>
             <img src={image1} alt="Image" className={styles.image} />
           </span>
           <h3 className={styles.feature_heading1}>Career Opportunities:</h3>
@@ -104,7 +104,7 @@ const LowerSection = () => {
         </div>
         <div className={styles.price_container}>
           <div className={styles.price_box}>
-            <div className={styles.price}>₹1000</div>
+            <div className={styles.price}>₹ 1000</div>
             <div>
               <span className={styles.cross}>2000</span> 50% off
             </div>
