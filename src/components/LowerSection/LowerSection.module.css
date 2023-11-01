@@ -12,7 +12,8 @@
   width: 654px;
   height: auto;
   border-radius: 20px;
-  margin: auto;
+  margin: -1px auto 0 auto;
+
 }
 
 .content {
