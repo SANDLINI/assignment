@@ -1,8 +1,5 @@
-# React + Vite
+<h1>Landing Page</h1>
+<p>A landing page built in React js</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<H2>Live Demo</H2>
+<p>https://thriving-nasturtium-db028e.netlify.app</p>
