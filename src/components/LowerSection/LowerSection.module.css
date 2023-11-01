@@ -212,7 +212,11 @@ li {
 
   .agenda {
     font-size: 18px;
-    width: 80%;
+    width: 60%;
+  }
+
+  .time {
+    margin-left: -100px;
   }
 
   .feature_Box {
@@ -310,12 +314,22 @@ li {
 }
 
 @media screen and (max-width: 549px) and (min-width: 400px) {
+  .btn {
+    width: 150px;
+    height: 40px;
+  }
+
   .buyNowBtn {
     width: 170px;
   }
 }
 
 @media screen and (max-width: 399px) {
+  .btn {
+    width: 150px;
+    height: 40px;
+  }
+
   .buyNowBtn {
     width: 130px;
   }
